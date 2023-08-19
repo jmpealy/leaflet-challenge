@@ -8,9 +8,9 @@ The USGS is interested in building a new set of tools that will allow them to vi
 ### Assignment
 In this challenge, we utilitzed the earthquake data provided by the USGS -in conjunction with Leaflet, a JavaScript library for creating interactive maps - in order to create a visualization of a dataset of earthquakes recorded by the USGS.  We used the logic.js file in order to write the code which created our map object, retrieved the earthquake data, and created identifying markers for each earthquake.  We used the index.html file to help us visualize the map, as well as to apply the legend (and its formatting) to our web visualization.  We followed the below steps:
 
-Data retrieval:  We accessed the https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php page to choose our specific earthquake dataset for visualization.  I chose to use the dataset containing all earthquakes recorded by the USGS over the last 7 days.  This page contained a JSON representation of all the relevant data for use in our challenge.
+Data retrieval:  We accessed the USGS GeoJSON page to choose our specific earthquake dataset for visualization.  I chose to use the dataset containing all earthquakes recorded by the USGS over the last 7 days.  This page contained a JSON representation of all the relevant data for use in our challenge.
 
-Data Importing and visualization:  We used the https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson of the JSON data to fetch it using the d3.json() function. Once retrieved, we parsed through the data to extract the features representing individual earthquakes. For each earthquake feature, we plotted it on a Leaflet map by specifying its longitude and latitude as coordinates.
+Data Importing and visualization:  We used the URL of the JSON data to fetch it using the d3.json() function. Once retrieved, we parsed through the data to extract the features representing individual earthquakes. For each earthquake feature, we plotted it on a Leaflet map by specifying its longitude and latitude as coordinates.
 
 ![image](https://github.com/jmpealy/leaflet-challenge/assets/128240129/f0f64dd4-1de4-4a3a-9601-aa4069ce74bf)
 
@@ -29,12 +29,14 @@ Legend Creation: We created a legend to provide context for the map data. The le
 
 ### References/links used in assignment
 
+I used this as a reference in writing getColor function (used switch/case instead of if/then)
 https://www.w3schools.com/js/js_switch.asp
 
+I used these two linkt as references for creating the legend.
 https://www.igismap.com/legend-in-leafletjs-map-with-topojson/
-
 https://leafletjs.com/examples/choropleth/
 
+I used this color generating website to help me come up with the HEX color scheme for my getColor function (also used in the legend)
 https://colorbrewer2.org/#type=diverging&scheme=Spectral&n=6
 
 
