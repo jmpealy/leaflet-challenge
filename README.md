@@ -35,8 +35,9 @@ https://www.w3schools.com/js/js_switch.asp
 
 I used these two links as references for creating the legend.
 
-#https://www.igismap.com/legend-in-leafletjs-map-with-topojson/
-#https://leafletjs.com/examples/choropleth/
+https://www.igismap.com/legend-in-leafletjs-map-with-topojson/
+
+https://leafletjs.com/examples/choropleth/
 
 I used this color generating website to help me come up with the HEX color scheme for my getColor function (also used in the legend)
 
