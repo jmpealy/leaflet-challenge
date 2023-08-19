@@ -30,13 +30,17 @@ Legend Creation: We created a legend to provide context for the map data. The le
 ### References/links used in assignment
 
 I used this as a reference in writing getColor function (used switch/case instead of if/then)
+
 https://www.w3schools.com/js/js_switch.asp
 
 I used these two linkt as references for creating the legend.
+
 https://www.igismap.com/legend-in-leafletjs-map-with-topojson/
+
 https://leafletjs.com/examples/choropleth/
 
 I used this color generating website to help me come up with the HEX color scheme for my getColor function (also used in the legend)
+
 https://colorbrewer2.org/#type=diverging&scheme=Spectral&n=6
 
 
